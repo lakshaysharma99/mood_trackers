@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mood-option{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mood-list{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hidden{
+    display: none;
+}

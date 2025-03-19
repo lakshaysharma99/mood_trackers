@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>How is your mood today?</h1>
+        <div class="mood-list">
+            <p class="mood-option" title="Happy">😂</p>
+            <p class="mood-option" title="Sad">😢</p>
+            <p class="mood-option" title="Excited">🤩</p>
+            <p class="mood-option" title="Neutral">😐</p>
+        </div>
+        <div id="timeline-type">
+            <button id="day-btn" class="timeline-btn">Daily</button>
+            <button id="week-btn" class="timeline-btn">Weekly</button>
+            <button id="month-btn" class="timeline-btn">Monthly</button>
+        </div>
+        <div id="day-timeline" class="timeline">
+        </div>
+        <div id="week-timeline" class="timeline hidden">
+        </div>
+        <div id="month-timeline" class="timeline hidden">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
