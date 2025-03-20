@@ -21,3 +21,29 @@
 .hidden{
     display: none;
 }
+
+.timeline{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.mood-row{
+    display: flex;
+    padding: 10px 10px ;
+    border-radius: 5px;
+    border: 1px solid blue;
+    justify-content: space-between;
+    background-color: rgb(238, 247, 255);
+    width: 200px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+}

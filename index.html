@@ -8,23 +8,19 @@
 </head>
 <body>
     <div class="main">
-        <h1>How is your mood today?</h1>
+        <h1 class="text">How is your mood today?</h1>
         <div class="mood-list">
             <p class="mood-option" title="Happy">😂</p>
             <p class="mood-option" title="Sad">😢</p>
             <p class="mood-option" title="Excited">🤩</p>
             <p class="mood-option" title="Neutral">😐</p>
         </div>
-        <div id="timeline-type">
-            <button id="day-btn" class="timeline-btn">Daily</button>
-            <button id="week-btn" class="timeline-btn">Weekly</button>
-            <button id="month-btn" class="timeline-btn">Monthly</button>
-        </div>
-        <div id="day-timeline" class="timeline">
-        </div>
-        <div id="week-timeline" class="timeline hidden">
-        </div>
-        <div id="month-timeline" class="timeline hidden">
+        <h2 class="text">Timeline <button id="reset-timeline" title="Reset" class="btn">🔄</button></h2>
+        <div id="day-timeline" class="timeline text">
+            <div class="mood-row">
+                <span>10:00:00</span>
+                <span>😊</span>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
